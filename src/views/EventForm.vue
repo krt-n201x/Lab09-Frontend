@@ -38,9 +38,8 @@
 </template>
 <script>
 import EventService from '@/services/EventService.js'
-import BaseInput from '../components/BaseInput.vue'
+
 export default {
-  components: { BaseInput },
   inject: ['GStore'],
   
   data() {
